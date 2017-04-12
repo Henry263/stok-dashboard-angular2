@@ -3,6 +3,8 @@ import {BrowserModule} from '@angular/platform-browser';
 
 import {AppComponent} from "./app.component";
 import {CoursesComponent} from "./courses.component";
+
+import {HeaderComponent} from "./header-comp/header.component";
 /*
 import {TaskListComponent} from "./todo/components/task-list.component";
 import {AboutComponent} from "./about/components/about.component";
@@ -19,7 +21,9 @@ import {FormsModule} from "@angular/forms";
     ],
     declarations: [
         AppComponent,
-        CoursesComponent
+        CoursesComponent,
+        HeaderComponent
+
         /*,
         TaskComponent,
         TaskListComponent,

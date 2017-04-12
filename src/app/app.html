@@ -1,7 +1,11 @@
-<section>
+<div class="component-container">
+
     <nav>
-        <a routerLink="/tasks">Task List</a>
-        <a routerLink="/about">About</a>
+        <a [routerLink]="['/']">Task List</a>
+        <!--<a [routerLink="/about">About</a> -->
     </nav>
-    <router-outlet></router-outlet>
-</section>
+
+    <router-outlet>/</router-outlet>
+
+
+</div>

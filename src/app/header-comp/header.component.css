@@ -1,0 +1,15 @@
+.main_menu {
+    margin-top: 10px;
+}
+
+.stc_logo, .main_btns {
+    display: inline-block;
+}
+
+.stc_logo {
+    width: 30%;
+}
+
+.main_btns {
+    width: 69%;
+}
