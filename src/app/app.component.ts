@@ -4,7 +4,7 @@ import {Component, OnInit} from "@angular/core";
     selector: "app",
     template: `<p>This is modified file.</p>
                 <courses></courses>
-                <header></header>
+                <router-outlet></router-outlet>
                 `
 })
 export class AppComponent implements OnInit {

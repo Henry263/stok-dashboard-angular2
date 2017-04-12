@@ -5,11 +5,11 @@ import {AppComponent} from "./app.component";
 import {CoursesComponent} from "./courses.component";
 
 import {HeaderComponent} from "./header-comp/header.component";
-/*
+
 import {TaskListComponent} from "./todo/components/task-list.component";
 import {AboutComponent} from "./about/components/about.component";
 import {TaskComponent} from "./todo/components/task.component";
- */
+
 import {routing, appRoutingProviders} from './app.routing';
 import {FormsModule} from "@angular/forms";
 
@@ -24,11 +24,11 @@ import {FormsModule} from "@angular/forms";
         CoursesComponent,
         HeaderComponent
 
-        /*,
+        ,
         TaskComponent,
         TaskListComponent,
         AboutComponent
-         */
+
     ],
     providers: [
         appRoutingProviders

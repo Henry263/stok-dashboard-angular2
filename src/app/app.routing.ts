@@ -5,9 +5,9 @@ import {HeaderComponent} from "./header-comp/header.component";
 import {ModuleWithProviders} from "@angular/core";
 
 const appRoutes: Routes = [
-   //{path: '', redirectTo: 'tasks', pathMatch: 'full'}
-   //{path: '', component: HeaderComponent}
-    // {path: 'about', component: AboutComponent, data: {title: 'About'}}
+
+    {path: '', component: HeaderComponent},
+    {path: 'about', component: AboutComponent, data: {title: 'About'}}
 ];
 
 export const appRoutingProviders: any[] = [];
