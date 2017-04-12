@@ -77,5 +77,5 @@ gulp.task('watch', function () {
  * Build the project.
  */
 gulp.task("build", ['compile', 'resources', 'libs'], () => {
-    console.log("Building the project ...");
+    console.log("Building the stok application ...");
 });
