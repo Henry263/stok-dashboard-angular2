@@ -1,6 +1,6 @@
 import {NgModule}      from '@angular/core';
 import {BrowserModule} from '@angular/platform-browser';
-
+import {HttpModule} from '@angular/http';
 import {AppComponent} from "./app.component";
 
 /*  Below component is added for testing purpose only. */
@@ -12,15 +12,14 @@ import {SummaryTable} from "./summary-comp/summary.component";
 import {StockPanel} from "./stockpanel-comp/stockpanel.component";
 
 /* Below tasks are default tasks. */
-import {TaskListComponent} from "./todo/components/task-list.component";
-import {AboutComponent} from "./about/components/about.component";
-import {TaskComponent} from "./todo/components/task.component";
+
 
 import {routing, appRoutingProviders} from './app.routing';
 import {FormsModule} from "@angular/forms";
 
 @NgModule({
     imports: [
+        HttpModule,
         BrowserModule,
         FormsModule,
         routing
@@ -34,9 +33,6 @@ import {FormsModule} from "@angular/forms";
         StockPanel,
 
         /* Below task are default task.*/
-        TaskComponent,
-        TaskListComponent,
-        AboutComponent
 
     ],
     providers: [
