@@ -2,9 +2,11 @@ import {Component, OnInit} from "@angular/core";
 
 @Component({
     selector: "app",
-    template: `<p>This is modified file.</p>
-                <courses></courses>
-                <router-outlet></router-outlet>
+    styleUrls: ["./app/style.css"],
+    template: `<router-outlet></router-outlet>
+               <networthval></networthval>
+               <summary-table></summary-table>
+               <stockpanel></stockpanel>
                 `
 })
 export class AppComponent implements OnInit {

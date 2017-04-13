@@ -1,0 +1,29 @@
+.networth_container {
+    display: block;
+    margin-top: 10px;
+    border: 2px solid maroon;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.net_heading {
+    text-align: center;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #908d8d;
+    color: #10528a;
+}
+
+#desk_invest_net, #desk_current_net, #differ_net {
+    width: 32%;
+    display: inline-block;
+}
+
+span.cur_net_lbl, span.invet_net_lbl, span.differ_net_lbl {
+    color: #000b69;
+    margin-bottom: 10px;
+}
+
+.invested_net, .current_net, .difference_net {
+    text-align: center;
+}

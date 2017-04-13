@@ -1,0 +1,175 @@
+.st_panel {
+    border: 2px solid maroon;
+    border-radius: 10px;
+    padding: 10px;
+    display: inline-block;
+    width: 40%;
+    margin: 5px;
+}
+
+.stc_panel_container {
+    text-align: center;
+}
+
+.panel_buttons {
+    margin-bottom: 10px;
+    display: block;
+    text-align: right;
+    color: #153082;
+}
+
+.stc_name.pnl-row1 {
+    font-size: 1rem;
+    display: inline-block;
+    font-weight: 700;
+    color: #10528a;
+    margin-right: 5px;
+}
+
+.pnl-row1-space {
+    display: inline-block;
+}
+
+.real_time_change.pnl-row1 {
+    display: inline-block;
+    font-size: 0.8rem;
+}
+
+.pnl-row1-space {
+    display: inline-block;
+}
+
+.stc_panel_container {
+    text-align: center;
+}
+
+span.change_prcnt_sign {
+    padding-left: 4px;
+}
+
+.up-doen-resize {
+    font-size: 1.1rem;
+}
+
+.icon_size {
+    font-size: 0.7rem;
+}
+
+.pnl-row2 {
+    display: block;
+    width: 100%;
+    margin: 15px 0px;
+}
+
+.net_label {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.net_val {
+    display: inline-block;
+    font-size: 15px;
+}
+
+.pnl-row3 {
+    width: 100%;
+    margin: 10px 0px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.left_por {
+    display: inline-block;
+    text-align: center;
+    width: 40%;
+    border: 1px solid blue;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.net_diff_lbl, .qty_lbl {
+    border-bottom: 1px solid #827b7b;
+}
+
+.right_por {
+    display: inline-block;
+    text-align: center;
+    width: 40%;
+    border: 1px solid blue;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.val_spacing {
+    padding: 5px 0px;
+}
+
+.pnl-row4 {
+    border-top: 1px solid #827b7b;
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+.left_part {
+    border-bottom: 1px solid #827b7b;
+    /* margin-left: 0px; */
+    border-bottom: 1px solid #827b7b;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.right_part {
+    margin: 10px 0px;
+}
+
+.head_lbl_enty {
+    width: 18%;
+}
+
+.all_lbls {
+    display: inline-block;
+}
+
+.head_lbl_invest {
+    width: 45%;
+}
+
+.head_lbl_current {
+    width: 32%;
+}
+
+.chld_row2, .chld_row1 {
+    margin: 5px 0px;
+}
+
+.curnt_prce_lbl, .diff {
+    text-align: right;
+    width: 18%;
+}
+
+.val_container {
+    display: inline-block;
+    width: 80%;
+}
+
+.val-width {
+    width: 49%;
+    text-align: center;
+}
+
+.front_icons {
+    padding-right: 10px;
+    padding-left: 5px;
+}
+
+.chart_groups {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.panel_buttons {
+    text-align: center;
+}

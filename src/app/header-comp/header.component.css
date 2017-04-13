@@ -2,14 +2,41 @@
     margin-top: 10px;
 }
 
+.main_menu {
+    background-color: #05052f;
+    display: block;
+    border-radius: 5px;
+}
+
 .stc_logo, .main_btns {
     display: inline-block;
 }
 
 .stc_logo {
+    display: inline-block;
     width: 30%;
+    vertical-align: middle;
 }
 
+img.logo_image {
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 5px;
+}
 .main_btns {
-    width: 69%;
+    display: inline-block;
+    width: 65%;
+    color: white;
+    margin-left: 4%;
+    text-align: right;
+}
+
+div.btn-design-mm {
+    display: inline-block;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
 }

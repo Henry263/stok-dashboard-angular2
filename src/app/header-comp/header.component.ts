@@ -8,7 +8,7 @@ import {OnInit} from "@angular/core";
 @Component({
     selector: "header",
     templateUrl: "./app/header-comp/header.html",
-    styleUrls: ["./app/header-comp/header.component.css"]
+    styleUrls: ["./app/header-comp/header.component.css", "./app/style.css"]
 })
 
 export class HeaderComponent {
